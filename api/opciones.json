@@ -1,0 +1,12 @@
+{
+  "tipoPropiedad": [
+    { "value": "casa", "label": "Casa" },
+    { "value": "departamento", "label": "Departamento" },
+    { "value": "local comercial", "label": "Local Comercial" }
+  ],
+  "ubicacion": [
+    { "value": "CABA", "label": "CABA" },
+    { "value": "Provincia Buenos Aires", "label": "Provincia Buenos Aires" },
+    { "value": "Interior del Pais", "label": "Interior del Pais" }
+  ]
+}

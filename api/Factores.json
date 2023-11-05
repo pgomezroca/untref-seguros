@@ -1,0 +1,15 @@
+{
+  
+   "tipoPropiedad":[
+    {"casa":1},
+    {"departamento":2},
+    {"local comercial": 3}
+   ],
+   "ubicacion": [
+    { "CABA": 0.9},
+    { "Provincia Buenos Aires": 0.8},
+    { "Interior del Pais": 1.1 }
+  ]
+}
+  
+

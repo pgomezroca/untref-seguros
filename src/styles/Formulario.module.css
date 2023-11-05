@@ -1,0 +1,82 @@
+.titulo{
+  margin-top:50px ;
+  margin-bottom:50px ;
+}
+.formContainer{
+  
+  width:60% ;
+  margin: auto;
+  
+}
+
+.container{
+  border: 2px solid red;
+  padding:60px 10px 60px 10px;
+  width:70% ;
+  margin: auto;
+}
+.select{
+  border:2px solid gray;
+  padding: 5px;
+  width:50% ;
+  margin: auto;
+}
+.input{
+  background-color:white;
+  border:2px,solid,gray;
+  width: 49%;
+  margin: auto;
+  padding: 5px;
+  
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.boton{
+  background-color:red;
+  border: none;
+  border-radius: 5px;
+  color:white;
+  cursor:pointer ;
+  width: 50%;
+  padding-top: 10px;
+  padding-bottom:10px ;
+  margin: auto;
+}
+.boton:hover{
+  background-color:#c0392b ;
+}
+.boton:active{
+  background-color:#e74c3c;
+}
+.cotizacion{
+text-align: center;
+}
+.informes{
+  display: grid;
+  grid-template-rows: auto auto; /* Dos filas, una para el h2 y otra para el botón */
+  justify-items: center; /* Centra horizontalmente los elementos dentro de la cuadrícula */
+  align-items: center; 
+}
+.cotizacion{
+  grid-column:1 ;
+  color: gray;
+}
+.botoncentrado{
+  
+ background-color: white;
+ color: red;
+ border: 2px solid red;
+ border-radius:5px ;
+ width: 40%;
+ padding: 5px;
+}
+.error{
+background-color:red ;
+color:white ;
+padding: 5px;
+text-align: center;
+}
+
